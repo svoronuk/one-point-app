@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, {Component} from 'react'
+import UsersList from './components/users/users-list'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-      </div>
-    );
-  }
+/**
+ * Base component which is render required components. for now it is <User/>
+ */
+export default class App extends Component{
+    render() {
+        return <div>
+            <UsersList />
+        </div>
+    }
 }
-
-export default App;
